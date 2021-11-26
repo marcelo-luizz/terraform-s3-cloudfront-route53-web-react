@@ -27,16 +27,16 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Use Node.js 12
-      id: setup
-      uses: actions/setup-node@v1
-      with:
-        node-version: 12
+    # - name: Use Node.js 12
+    #   id: setup
+    #   uses: actions/setup-node@v1
+    #   with:
+    #     node-version: 12
 
-    - name: Yarn Install
-      id: yarn-install
-      run: |
-        yarn install 
+    # - name: Yarn Install
+    #   id: yarn-install
+    #   run: |
+    #     yarn install 
 
     # - name: Staging Build
     #   id: yarn-build
