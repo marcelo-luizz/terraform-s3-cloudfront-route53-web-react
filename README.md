@@ -42,3 +42,11 @@ Wait a few minutes and after, acess your domain!
 
 TCHARAMM! I'ts works!
 
+
+
+#################################################################################
+
+Features:
+
+Generate outputs for domain name, bucket name, bucket fqdn, distribuition id and region 
+Use cloudfront id output for connect in the module github and create secret.
