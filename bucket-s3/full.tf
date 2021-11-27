@@ -1,8 +1,8 @@
-variable "aws_region" { }
+# variable "aws_region" { }
 
-variable "bucket_name" { }
+# variable "bucket_name" { }
 
-variable "domain" { }
+# variable "domain" { }
 
 provider "aws" {
   region = var.aws_region
@@ -143,9 +143,9 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
       }
     }
 
-    min_ttl                = 0
-    default_ttl            = 86400
-    max_ttl                = 31536000
+    min_ttl                = 5
+    default_ttl            = 10
+    max_ttl                = 15
     compress               = true
     viewer_protocol_policy = "redirect-to-https"
   }
