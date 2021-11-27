@@ -6,7 +6,9 @@ This module provisioner a bucket ready for deploy your website with cloudfront c
 certificate ssl and hosted zone in route 53
 
 
+
 If you want to deploy website using github actions you must define 3 secrets on github.
+
 
 SLACK_WEBHOOK - webhook to notifier your team on slack  
 AWS_ACCESS_KEY_ID - account public key in aws 
@@ -18,14 +20,14 @@ Clone this repo and define vars inside folder /module
 
 
 Example:
-
+```json
 module "s3_bucket" {
     source        = "../bucket-s3"
     bucket_name = "my-bucket"
     aws_region  = "us-east-1"
     domain      = "mydomain.com"
 }
-
+```
 
 Inside folder /module run commands for provisioner infra :
 
