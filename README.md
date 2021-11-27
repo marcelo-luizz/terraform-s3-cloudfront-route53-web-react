@@ -9,11 +9,11 @@ certificate ssl and hosted zone in route 53
 
 If you want to deploy website using github actions you must define 3 secrets on github.
 
-
+```yaml
 SLACK_WEBHOOK - webhook to notifier your team on slack  
 AWS_ACCESS_KEY_ID - account public key in aws 
 AWS_SECRET_ACCESS_KEY - account private key in aws
-
+```
 
 How to use:
 Clone this repo and define vars inside folder /module
