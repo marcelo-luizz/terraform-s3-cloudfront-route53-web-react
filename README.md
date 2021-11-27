@@ -15,7 +15,8 @@ AWS_ACCESS_KEY_ID - account public key in aws
 AWS_SECRET_ACCESS_KEY - account private key in aws
 ```
 
-How to use:
+How to use
+
 Clone this repo and define vars inside folder /module
 
 
@@ -36,4 +37,8 @@ Inside folder /module run commands for provisioner infra :
 #2 terraform plan
 
 #3 terraform apply
+
+Wait a few minutes and after, acess your domain!
+
+TCHARAMM! I'ts works!
 
