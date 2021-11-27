@@ -1,9 +1,3 @@
-# variable "aws_region" { }
-
-# variable "bucket_name" { }
-
-# variable "domain" { }
-
 provider "aws" {
   region = var.aws_region
 }
