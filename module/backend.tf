@@ -1,8 +1,7 @@
 terraform {
   backend "s3" {
-      bucket      = "bucket name"
-      description = "bucket to save tfstate"
-      key         = "tf state file name"
-      region      = "example: us-east-1"
+      bucket      = "devopsbrothers.staging.state"
+      key         = "devopsbrothers.file.state"
+      region      = "us-east-1"
   }
 }
