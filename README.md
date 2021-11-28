@@ -38,15 +38,8 @@ Inside folder /module run commands for provisioner infra :
 
 #3 terraform apply
 
-Wait a few minutes and after, acess your domain!
+wait a few minutes to provision the infrastructure, and then access your domain!
 
 TCHARAMM! I'ts works!
 
 
-
-#################################################################################
-
-Features:
-
-Generate outputs for domain name, bucket name, bucket fqdn, distribuition id and region 
-Use cloudfront id output for connect in the module github and create secret.
