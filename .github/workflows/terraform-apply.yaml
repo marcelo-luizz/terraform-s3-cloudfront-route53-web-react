@@ -17,7 +17,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Terraform init
-        run: terraform init
+        run: |
+          cd module
+          terraform init
         working-directory: ${{ env.working-directory }}
 
       - name: Terraform plan
